@@ -1,0 +1,126 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff;
+  font-family: verdana, lucida console , sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: rgba(80, 80, 80, 0.7);
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  }
+
+.navbar-brand h1 { /* site name */
+  font-family: verdana,  serif;
+  color: rgba(40,40,40,0.5);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list{
+  margin-top: 0px;
+  background-color: white;
+}
+#nav-list li{
+  border: 1px solid black;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#menu{
+  padding: 10px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+/* END HEADER */
+
+
+/* MAIN CONENT*/
+
+.mytext{
+  color: black;
+  
+  }
+#chicken{
+  height: 700px;
+  border: 1px solid rgba(80, 80, 80, 0.5);
+  background-color: rgba(80, 80, 80, 0.7);
+}
+#beef{
+  height: 700px;
+  border: 1px solid rgba(80, 80, 80, 0.5);
+  background-color: rgba(80, 80, 80, 0.7);}
+#sunshi{
+  height: 700px;
+  border: 1px solid rgba(80, 80, 80, 0.5);
+  background-color: rgba(80, 80, 80, 0.7);}
+
+
+@media screen and (min-width: 768px) {
+  #header-nav{
+    height: 90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #chicken{
+    margin: 0 12px 10px;
+  }
+  #beef{
+    margin: 0 12px 10px;
+  }
+  #sunshi{
+    margin: 0 12px 30px;
+  }
+  
+@media only screen and (min-width: 991px) /*desktop*/ {
+}
+
+@media (min-width: 768px) and (max-width: 990px) /*tablet*/{
+  #chicken{
+    
+    margin: 0px 0 10px 0; 
+  }
+    #beef{
+    
+    margin: 20px 0 ;
+  }
+  #sunshi{
+    margin: 20px 0 ;
+  }
+ 
+}
